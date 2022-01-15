@@ -29,15 +29,15 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70px;
+    height: 250px;
     left: 0;
     bottom: 0;
     background-color: var(--about-text-bgc);
-    color: var(--main-title-color);
+    color: $first-text-color;
     font-weight: 700;
     line-height: 1.14;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

@@ -5,12 +5,12 @@
 
   .card__title {
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--second-title-color);
+    color: $main-dark;
   }
   
   .card__text {
@@ -19,7 +19,7 @@
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--first-text-color);
+    color: $contacts-color;
     margin-bottom: 16px;
   }
 

@@ -5,8 +5,8 @@
   bottom: 0;
   left: 0;
   overflow: auto;
-  background-color: rgba(33, 150, 243, 0.9);
-  color: var(--contrast-color);
+  background-color: $accent-color;
+  color: $first-text-color;
   padding: 20px 24px;
   font-weight: 400;
   font-size: 18px;
@@ -25,7 +25,7 @@
     bottom: 0;
     left: 0;
     overflow: auto;
-    background-color: rgba(33, 150, 243, 0.9);
+    background-color: rgba(243, 100, 33, 0.553);
     color: $main-title-color;
     padding: 20px 24px;
     font-weight: 400;

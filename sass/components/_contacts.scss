@@ -56,6 +56,7 @@
   .contacts__link-mail {
     @media screen and (min-width: 768px) {
     padding-top: 21px;
+    padding-left: 30px;
   }
     @media screen and (min-width: 1200px) {
     padding: 32px 0;
@@ -65,6 +66,7 @@
   .contacts__link-tel {
     @media screen and (min-width: 768px) {
       padding-bottom: 21px;
+      padding-left: 30px;
     }
     @media screen and (min-width: 1200px) {
       padding: 32px 0;

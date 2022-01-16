@@ -447,6 +447,7 @@ body {
 @media screen and (min-width: 768px) {
   .contacts__link-mail {
     padding-top: 21px;
+    padding-left: 30px;
   }
 }
 
@@ -459,6 +460,7 @@ body {
 @media screen and (min-width: 768px) {
   .contacts__link-tel {
     padding-bottom: 21px;
+    padding-left: 30px;
   }
 }
 
@@ -1434,8 +1436,8 @@ body {
   bottom: 0;
   left: 0;
   overflow: auto;
-  background-color: rgba(33, 150, 243, 0.9);
-  color: var(--contrast-color);
+  background-color: #ff4700;
+  color: #e6e6e6;
   padding: 20px 24px;
   font-weight: 400;
   font-size: 18px;
@@ -1454,7 +1456,7 @@ body {
   bottom: 0;
   left: 0;
   overflow: auto;
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: rgba(243, 100, 33, 0.553);
   color: #ffffff;
   padding: 20px 24px;
   font-weight: 400;
@@ -1679,11 +1681,12 @@ body {
 
 .hero__title {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 19px;
   line-height: 1.62;
-  text-align: center;
+  text-align: end;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding-top: 250px;
   color: #e6e6e6;
 }
 
@@ -2076,7 +2079,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  color: #212121;
+  color: #26323d;
 }
 
 @media screen and (min-width: 768px) {
@@ -2133,7 +2136,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: #607385;
 }
 
 .portfolio__aside {

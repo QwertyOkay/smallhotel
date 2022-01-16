@@ -1,0 +1,40 @@
+.heading__clients {
+  margin: 0 0 50px 0;
+  color: #212121;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  @media screen and (max-width: 1199px) {
+      margin-bottom: 30px;
+  }
+}
+  
+
+  .heading__about, 
+  .heading__team  {
+    margin: 0 0 50px 0;
+    // color: #212121;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $main-dark;
+  }
+
+  .heading__team-rooms {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $main-dark;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1199px) {
+      margin-top: 0;
+      line-height: 2.17;
+  }
+  }

@@ -83,16 +83,17 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
   .button__send {
     width: 200px;
     height: 50px;
-    background: var(--accent-color);
+    background: $accent-color;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: var(--main-title-color);
+    color: $first-text-color;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+    font-size: 15px;
+    // line-height: 1.87;
     border: 0;
     letter-spacing: 0.06em;
+    cursor: pointer;
   }
 
   .button__filter {
@@ -129,8 +130,8 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 
 
   .button__open-menu {
-    width: 40px;
-    height: 40px;
+    min-height: 40px;
+    min-width: 40px;
     cursor: pointer;
     background: transparent;
     fill: $third-text-color;

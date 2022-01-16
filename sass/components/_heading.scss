@@ -23,3 +23,18 @@
     text-align: center;
     color: $main-dark;
   }
+
+  .heading__team-rooms {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $main-dark;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1199px) {
+      margin-top: 0;
+      line-height: 2.17;
+  }
+  }

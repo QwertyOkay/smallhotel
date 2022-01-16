@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmallHotel</title>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      />
+        <!-- <link rel="stylesheet" href="./css/modern-normalize.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+        <a class="logo logo--header logo--new" 
+        href="./index.html" 
+        lang="en">
+        <span class="logo--accent">Small</span>Hotel</a>
+        <button type="button" class="button__open-menu" data-menu-open>
+            <svg class="icon icon__mob-menu">
+        <use href="images/icons.svg#icon-menu"></use>
+        </svg>
+        </button>
+
+    <nav class="navigation">
+
+            <ul class="navigation__list">
+                <li><a class="navigation__link" href="./index.html" >Головна</a></li>
+                <li><a class="navigation__link navigation__link--current" href ="./rooms.html">Номери</a></li>
+                <li><a class="navigation__link" href ="#contacts">Контакти</a></li>
+            </ul>
+    </nav>
+
+    <ul class="contacts__list lists">
+        <li class="contacts__item">
+            <a href="mailto:vin@small-hotel.com.ua" class="contacts__link contacts__link-mail">
+            <svg class="contacts__icon icon icon__mail"
+                width="16"
+                height="12"><use href="./images/icons.svg#icon-envelope"></use></svg>vin@small-hotel.com.ua</a>
+                                    </li>
+        
+        <li class="contacts__item">
+            <a class="contacts__link contacts__link-tel" 
+               href="tel:+380939301111">
+            <svg class="contacts__icon icon icon__tel"
+                 width="10"
+                 height="16"><use href="./images/icons.svg#icon-smartphone"></use></svg>+38 093 930 11 11</a>
+            </li>
+    </ul>
+    <div class="dropdown">
+        <div class="dropbtn"></div>
+        <div class="dropdown-content">
+          <a href="./rooms.html">UA</a>
+          <a href="./en/rooms.html">EN</a>
+        </div>
+    </div>
+      </div>
+</header>
+
+    <main>
+        <section class="portfolio section-rooms">
+            <div class="container">
+              
+            <p class="heading__team-rooms">У вартість проживання наших гостей входять сніданки.<br> Вони подаються щодня з 8:00 до 11:00. Ми щиро турбуємось про кожного гостя, а тому на період карантинних обмежень сніданки подаються індивідуально до кожного номеру.<br> 
+Для гостей нашого готелю доступна послуга румсервіс, яка працює цілодобово.<br> За спеціальним меню харчування можна замовляти до номеру в будь-який час доби.<br> 
+Також у кожному номері Small hotel є міні-бар з прохолоджувальними напоями, снеками та смаколиками. Ним можна скористатись за окрему платню.</p>
+  
+<h1 class="visually-hidden">Номери</h1>
+               
+<ul class="filter__list lists">
+<li><button class="button__filter button__filter--current" type="button">Всі номери</button></li>
+<!-- <li><button class="button__filter" type="button">Веб-сайты</button></li>
+<li><button class="button__filter" type="button">Приложения</button></li>
+<li><button class="button__filter" type="button">Дизайн</button></li>
+<li><button class="button__filter" type="button">Маркетинг</button></li> -->
+</ul>
+            <ul class="portfolio__list lists">
+
+            <li class="portfolio__item">
+            <a href="" class="link__portfolio">
+                <div class="portfolio__aside"> 
+                    <picture>
+                        <source
+                          srcset="./images/project1-note-1x.jpg 1x, ./images/project1-note-2x.jpg 2x"
+                          media="(min-width:1200px)" />
+                        <source
+                          srcset="./images/project1-tab-1x.jpg 1x, ./images/project1-tab-2x.jpg 2x"
+                          media="(min-width:768px)" />
+                        <source
+                          srcset="./images/project1-mob-1x.jpg 1x, ./images/project1-mob-2x.jpg 2x"
+                          media="(min-width:480px)" />
+                        <img src="./images/project1-mob-1x.jpg" alt="сайт на ноутбуке"
+                      /></picture>
+                <p class="overlay__text">
+                  Площа номеру – 22 м2 з односпальним ліжком розміром 120х200 см                 
+                </p>
+            </div>
+           <div class="portfolio__content">
+            <h2 class="portfolio__title">Одномісний стандарт</h2>
+            <p class="portfolio__text">У номері:<br> 
+              - сучасний ортопедичний матрац на ліжку;<br>
+              - сейф;<br>
+              - міні-бар;<br>
+              - система кондиціонування (клімат-контроль);<br>
+              - WiFi;<br>
+              - SMART-телевізор;<br>
+              - телефон;<br>
+              - чайник та набір посуду для чаю/кави.<br>
+              </p>
+            </div>
+        </a>
+        </li>
+
+            <li class="portfolio__item">
+                <a href="" class="link__portfolio">
+                    <div class="portfolio__aside">  
+                        <picture>
+                            <source
+                              srcset="./images/project2-note-1x.jpg 1x, ./images/project2-note-2x.jpg 2x"
+                              media="(min-width:1200px)" />
+                            <source
+                              srcset="./images/project2-tab-1x.jpg 1x, ./images/project2-tab-2x.jpg 2x"
+                              media="(min-width:768px)" />
+                            <source
+                              srcset="./images/project2-mob-1x.jpg 1x, ./images/project2-mob-2x.jpg 2x"
+                              media="(min-width:480px)" />
+                            <img src="./images/project2-mob-1x.jpg" alt="постер баскетболисты"
+                          /></picture>
+                <p class="overlay__text">
+                  Ванна кімната<br>
+                  - туалет;<br>
+                  - душова кабіна;<br>
+                  - набір рушників;<br>
+                  - фен;<br>
+                  - шампунь, гель для душу. 
+                </p>
+            </div>
+            <div class="portfolio__content">
+                <h2 class="portfolio__title"></h2>
+            <p class="portfolio__text">У вартість номеру входить: безлімітний WiFi, сніданок, парко-місце для автомобіля.</p>
+            </div>
+        </a>
+        </li>
+
+            <li class="portfolio__item">
+                <a href="" class="link__portfolio">
+                    <div class="portfolio__aside"> 
+                        <picture>
+                            <source
+                              srcset="./images/project3-note-1x.jpg 1x, ./images/project3-note-2x.jpg 2x"
+                              media="(min-width:1200px)" />
+                            <source
+                              srcset="./images/project3-tab-1x.jpg 1x, ./images/project3-tab-2x.jpg 2x"
+                              media="(min-width:768px)" />
+                            <source
+                              srcset="./images/project3-mob-1x.jpg 1x, ./images/project3-mob-2x.jpg 2x"
+                              media="(min-width:480px)" />
+                            <img src="./images/project3-mob-1x.jpg" alt="лого ресторана"
+                          /></picture>
+                <!-- <p class="overlay__text"> 
+                </p>
+            </div>
+            <div class="portfolio__content">
+                <h2 class="portfolio__title"></h2>
+            <p class="portfolio__text"></p> -->
+            </div>
+        </a>
+        </li>
+
+            <li class="portfolio__item">
+                <a href="" class="link__portfolio">
+                    <div class="portfolio__aside"> 
+                        <picture>
+                            <source
+                              srcset="./images/project4-note-1x.jpg 1x, ./images/project4-note-2x.jpg 2x"
+                              media="(min-width:1200px)" />
+                            <source
+                              srcset="./images/project4-tab-1x.jpg 1x, ./images/project4-tab-2x.jpg 2x"
+                              media="(min-width:768px)" />
+                            <source
+                              srcset="./images/project4-mob-1x.jpg 1x, ./images/project4-mob-2x.jpg 2x"
+                              media="(min-width:480px)" />
+                            <img src="./images/project4-mob-1x.jpg" alt="книга"
+                          /></picture>
+                <p class="overlay__text">
+                  - сучасний ортопедичний матрац на ліжку;<br>
+- сейф;<br>
+- міні-бар;<br>
+- система кондиціонування (клімат-контроль);<br>
+- WiFi;<br>
+- SMART-телевізор;<br>
+- телефон;<br>
+- чайник та набір посуду для чаю/кави;<br>
+- питна вода пляшкова.<br>
+                </p>
+            </div>
+            <div class="portfolio__content">
+                <h2 class="portfolio__title">Двомісний Стандарт</h2>
+            <p class="portfolio__text">Номер площею 22 м2 з одним великим ліжком розміром 240х200 см.</p>
+            </div>
+        </a>
+        </li>
+
+            <li class="portfolio__item">
+                <a href="" class="link__portfolio">
+                    <div class="portfolio__aside">  
+                        <picture>
+                            <source
+                              srcset="./images/project5-note-1x.jpg 1x, ./images/project5-note-2x.jpg 2x"
+                              media="(min-width:1200px)" />
+                            <source
+                              srcset="./images/project5-tab-1x.jpg 1x, ./images/project5-tab-2x.jpg 2x"
+                              media="(min-width:768px)" />
+                            <source
+                              srcset="./images/project5-mob-1x.jpg 1x, ./images/project5-mob-2x.jpg 2x"
+                              media="(min-width:480px)" />
+                            <img src="./images/project5-mob-1x.jpg" alt="лейбл с названием проекта"
+                          /></picture>
+                <p class="overlay__text">
+                  Ванна кімната<br>
+- туалет;<br>
+- душова кабіна;<br>
+- набір рушників;<br>
+- фен;<br>
+- шампунь, гель для душу. <br>
+</p>
+            </div>
+            <div class="portfolio__content">
+                <h2 class="portfolio__title"></h2>
+            <p class="portfolio__text">У вартість номеру входить: безлімітний WiFi, сніданок, парко-місце для автомобіля.</p>
+            </div>
+        </a>
+            </li>
+
+            <li class="portfolio__item">
+                <a href="" class="link__portfolio">
+                    <div class="portfolio__aside">  
+                        <picture>
+                            <source
+                              srcset="./images/project6-note-1x.jpg 1x, ./images/project6-note-2x.jpg 2x"
+                              media="(min-width:1200px)" />
+                            <source
+                              srcset="./images/project6-tab-1x.jpg 1x, ./images/project6-tab-2x.jpg 2x"
+                              media="(min-width:768px)" />
+                            <source
+                              srcset="./images/project6-mob-1x.jpg 1x, ./images/project6-mob-2x.jpg 2x"
+                              media="(min-width:480px)" />
+                            <img src="./images/project6-mob-1x.jpg" alt="работа за ноутбуком"
+                          /></picture>
+                <!-- <p class="overlay__text">
+                </p> -->
+            </div>
+                <div class="portfolio__content">
+                <h2 class="portfolio__title"></h2>
+                <p class="portfolio__text"></p>
+                </div>
+            </a>
+            </li>
+
+            <li class="portfolio__item">
+              <a href="" class="link__portfolio">
+                  <div class="portfolio__aside">  
+                      <picture>
+                          <source
+                            srcset="./images/project7-note-1x.jpg 1x, ./images/project7-note-2x.jpg 2x"
+                            media="(min-width:1200px)" />
+                          <source
+                            srcset="./images/project7-tab-1x.jpg 1x, ./images/project7-tab-2x.jpg 2x"
+                            media="(min-width:768px)" />
+                          <source
+                            srcset="./images/project7-mob-1x.jpg 1x, ./images/project7-mob-2x.jpg 2x"
+                            media="(min-width:480px)" />
+                          <img src="./images/project7-mob-1x.jpg" alt="работа за ноутбуком"
+                        /></picture>
+              <!-- <p class="overlay__text">
+              </p> -->
+          </div>
+              <div class="portfolio__content">
+              <h2 class="portfolio__title"></h2>
+              <p class="portfolio__text"></p>
+              </div>
+          </a>
+          </li>
+
+          <li class="portfolio__item">
+            <a href="" class="link__portfolio">
+                <div class="portfolio__aside">  
+                    <picture>
+                        <source
+                          srcset="./images/project8-note-1x.jpg 1x, ./images/project8-note-2x.jpg 2x"
+                          media="(min-width:1200px)" />
+                        <source
+                          srcset="./images/project8-tab-1x.jpg 1x, ./images/project8-tab-2x.jpg 2x"
+                          media="(min-width:768px)" />
+                        <source
+                          srcset="./images/project8-mob-1x.jpg 1x, ./images/project8-mob-2x.jpg 2x"
+                          media="(min-width:480px)" />
+                        <img src="./images/project8-mob-1x.jpg" alt="работа за ноутбуком"
+                      /></picture>
+            <!-- <p class="overlay__text">
+            </p> -->
+        </div>
+            <div class="portfolio__content">
+            <h2 class="portfolio__title"></h2>
+            <p class="portfolio__text"></p>
+            </div>
+        </a>
+        </li>
+
+        <li class="portfolio__item">
+          <a href="" class="link__portfolio">
+              <div class="portfolio__aside">  
+                  <picture>
+                      <source
+                        srcset="./images/project9-note-1x.jpg 1x, ./images/project9-note-2x.jpg 2x"
+                        media="(min-width:1200px)" />
+                      <source
+                        srcset="./images/project9-tab-1x.jpg 1x, ./images/project9-tab-2x.jpg 2x"
+                        media="(min-width:768px)" />
+                      <source
+                        srcset="./images/project9-mob-1x.jpg 1x, ./images/project9-mob-2x.jpg 2x"
+                        media="(min-width:480px)" />
+                      <img src="./images/project9-mob-1x.jpg" alt="работа за ноутбуком"
+                    /></picture>
+          <!-- <p class="overlay__text">
+          </p> -->
+      </div>
+          <div class="portfolio__content">
+          <h2 class="portfolio__title"></h2>
+          <p class="portfolio__text"></p>
+          </div>
+      </a>
+      </li>
+
+      <li class="portfolio__item">
+        <a href="" class="link__portfolio">
+            <div class="portfolio__aside">  
+                <picture>
+                    <source
+                      srcset="./images/project10-note-1x.jpg 1x, ./images/project10-note-2x.jpg 2x"
+                      media="(min-width:1200px)" />
+                    <source
+                      srcset="./images/project10-tab-1x.jpg 1x, ./images/project10-tab-2x.jpg 2x"
+                      media="(min-width:768px)" />
+                    <source
+                      srcset="./images/project10-mob-1x.jpg 1x, ./images/project10-mob-2x.jpg 2x"
+                      media="(min-width:480px)" />
+                    <img src="./images/project10-mob-1x.jpg" alt="работа за ноутбуком"
+                  /></picture>
+        <p class="overlay__text">
+          - сучасний ортопедичний матрац на ліжку;<br>
+          - сейф;<br>
+          - міні-бар;<br>
+          - система кондиціонування (клімат-контроль);<br>
+          - WiFi;<br>
+          - 2 SMART-телевізори (у спальні та гостьовій зоні);<br>
+          - телефон;<br>
+          - чайник та набір посуду для чаю/кави;<br>
+          - питна вода пляшкова.<br>
+          
+        </p>
+    </div>
+        <div class="portfolio__content">
+        <h2 class="portfolio__title">Люкс</h2>
+        <p class="portfolio__text">Просторий двокімнатний номер площею 62 м2 з великим двоспальним ліжком розміром 240х200 см та гостьовою зоною з розкладним диваном. <br> Номер передбачає розміщення до 4 осіб.</p>
+        </div>
+    </a>
+    </li>
+
+    <li class="portfolio__item">
+      <a href="" class="link__portfolio">
+          <div class="portfolio__aside">  
+              <picture>
+                  <source
+                    srcset="./images/project11-note-1x.jpg 1x, ./images/project11-note-2x.jpg 2x"
+                    media="(min-width:1200px)" />
+                  <source
+                    srcset="./images/project11-tab-1x.jpg 1x, ./images/project11-tab-2x.jpg 2x"
+                    media="(min-width:768px)" />
+                  <source
+                    srcset="./images/project11-mob-1x.jpg 1x, ./images/project11-mob-2x.jpg 2x"
+                    media="(min-width:480px)" />
+                  <img src="./images/project11-mob-1x.jpg" alt="работа за ноутбуком"
+                /></picture>
+      <p class="overlay__text">
+        Ванна кімната<br>
+        - відкрита ванна біля спальні;<br>
+        - окрема душова кабіна;<br>
+        - 2 санвузли;<br>
+        - набір рушників;<br>
+        - фен;<br>
+        - шампунь, гель для душу.<br>
+              </p>
+  </div>
+      <div class="portfolio__content">
+      <h2 class="portfolio__title"></h2>
+      <p class="portfolio__text">У вартість номеру входить: безлімітний WiFi, сніданок, парко-місце для автомобіля.</p>
+      </div>
+  </a>
+  </li>
+
+  <li class="portfolio__item">
+    <a href="" class="link__portfolio">
+        <div class="portfolio__aside">  
+            <picture>
+                <source
+                  srcset="./images/project12-note-1x.jpg 1x, ./images/project12-note-2x.jpg 2x"
+                  media="(min-width:1200px)" />
+                <source
+                  srcset="./images/project12-tab-1x.jpg 1x, ./images/project12-tab-2x.jpg 2x"
+                  media="(min-width:768px)" />
+                <source
+                  srcset="./images/project12-mob-1x.jpg 1x, ./images/project12-mob-2x.jpg 2x"
+                  media="(min-width:480px)" />
+                <img src="./images/project12-mob-1x.jpg" alt="работа за ноутбуком"
+              /></picture>
+    <!-- <p class="overlay__text">
+    </p> -->
+</div>
+    <div class="portfolio__content">
+    <h2 class="portfolio__title"></h2>
+    <p class="portfolio__text"></p>
+    </div>
+</a>
+</li>
+
+            </ul>
+        </div>
+        </section>
+        </main>
+
+        <footer class="footer" id="contacts">
+          <div class="footer__container container">
+              <div class="footer-tablet">
+              <div class="footer__content">
+                  <a class="logo logo--footer" 
+                  href="./index.html" 
+                  lang="en"><span 
+                  class="logo logo--accent">Small</span>Hotel</a>
+      
+                  <address class="footer-address">
+                      <a 
+                      class="footer__address" 
+                      href="https://www.google.com/maps/place/SMALL+HOTEL/@49.2264652,28.4111106,16z/data=!4m18!1m9!3m8!1s0x0:0x16d8c0dfbfd4c716!2sSMALL+HOTEL!5m2!4m1!1i2!8m2!3d49.226213!4d28.4110248!3m7!1s0x0:0x16d8c0dfbfd4c716!5m2!4m1!1i2!8m2!3d49.226213!4d28.4110248" 
+                      target="_blank" 
+                      rel="noopener, nofollow, noreferrer"
+                      >м.Вінниця, проспект Юності 18</a>
+      
+                      <ul class="lists">                   
+                          <li class="footer__item">
+                          <a class="footer__link" href="mailto:vin@small-hotel.com.ua"
+                          >vin@small-hotel.com.ua</a></li>
+                          <li class="footer__item">
+                          <a class="footer__link" href="tel:+380939301111"
+                          >+38 093 930 11 11</a></li>
+                      </ul>
+                  </address>
+              </div>
+          
+              <div class="footer__thumb--social">
+                  <p class="footer__text">Слідкуйте за новинами</p>
+                  <ul class="lists social__list">
+                      <li class="social__item">
+                          <a href="" class="social__link social__link--footer">
+                              <svg class="icon__social">
+                                  <use href="./images/icons.svg#icon-instagram"></use>
+                              </svg>
+                          </a>
+                      </li>
+                      <li class="social__item">
+                          <a href="" class="social__link social__link--footer">
+                              <svg class="icon__social">
+                                  <use href="./images/icons.svg#icon-twitter"></use>
+                              </svg>
+                          </a>
+                      </li>
+                      <li class="social__item">
+                          <a href="" class="social__link social__link--footer">
+                              <svg class="icon__social">
+                                  <use href="./images/icons.svg#icon-facebook"></use>
+                              </svg>
+                          </a>
+                      </li>
+                      <!-- <li class="social__item">
+                          <a href="" class="social__link social__link--footer">
+                              <svg class="icon__social">
+                                  <use href="./images/icons.svg#icon-linkedin"></use>
+                              </svg>
+                          </a>
+                      </li> -->
+                  </ul>
+              </div> 
+              </div>
+      </footer>
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-menu-container">
+            <div class="mob-menu-nav">
+                <button type="button" class="mob-menu__close-button" data-menu-close>
+                    <svg class="icon icon__menu-close">
+                      <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                  <ul class="mob-menu__list lists">
+                    <li><a href="./index.html" class="mob-menu__link">Головна</a></li>
+                    <li><a href="./rooms.html" class="mob-menu__link current-mob">Номери</a></li>
+                    <li><a href="./index.html#contacts" class="mob-menu__link">Контакты</a></li>
+                  </ul>
+            </div>
+            
+            <div class="mob-menu-contact">
+                <ul class="mob-menu-contacts lists">
+                  <li class="mob-menu-contacts__item">
+                    <a href="tel:+380441111111" class="mob-menu-contacts__tel">+38 093 930 11 11</a>
+                  </li>
+                  <li class="mob-menu-contacts__item">
+                    <a href="mailto:info@devstudio.com" class="mob-menu-contacts__mail">
+                     vin@small-hotel.com.ua</a
+                    >
+                  </li>
+                </ul>
+                <ul class="mob-menu-social lists">
+                  <li class="mob-menu-social__item">
+                    <a href="https://www.instagram.com/" class="mob-menu-social__link">Instagram</a>
+                  </li>
+                  <li class="mob-menu-social__item">
+                    <a href="https://twitter.com/" class="mob-menu-social__link">Twitter</a>
+                  </li>
+                  <li class="mob-menu-social__item">
+                    <a href="https://www.facebook.com/" class="mob-menu-social__link">Facebook</a>
+                  </li>
+                  <!-- <li class="mob-menu-social__item">
+                    <a href="https://www.linkedin.com/" class="mob-menu-social__link">linkedin</a>
+                  </li> -->
+                </ul>
+        </div>
+    </div>
+    </div>
+
+        <script src="./js/menu.js"></script>
+        
+        </body>
+        </html>
